@@ -10,8 +10,10 @@ main{
   width: 800px;
   margin: 0 auto;
   background-color: orange;
-}
-
+  justify-content: center;
+  margin-top: 25%;
+  width: 80%;
+  }
 section{
   height: 100px;
   background-color: steelblue;
@@ -20,19 +22,38 @@ section{
   justify-content: center;
   align-items: center;
   flex-basis: 80px;
+  
+  
+
 }
 
 #section-1{
+  display: flex;
+  order: 2;
 }
 
 #section-2{
+  display: flex;
+  flex-basis: 10vw;
+  order: 3;
+  
+
 }
 
 #section-3{
+  display: flex;
+  flex-basis: 18vw;
+  order: 4;
 }
 
 #section-4{
+  display: flex;
+  flex-basis: 200px;
+  order: 5;
 }
 
 #section-5{
+  display: flex;
+  flex-basis: 7vw;
+  order: 1;
 }

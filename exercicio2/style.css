@@ -4,6 +4,12 @@
 }
 
 main{
+  border: 1px solid black;
+  width: 50vw;
+  background-color: aqua;
   padding-top: 20px;
   display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 30px;
 }
